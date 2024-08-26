@@ -1,0 +1,2 @@
+Error at 2024-08-01T01:21:18.945Z: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net
+Error at 2024-08-01T01:51:55.689Z: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net
