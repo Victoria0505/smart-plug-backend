@@ -10,6 +10,11 @@ app.use(bodyParser.json());
 
 let currentSetpoint = null;
 
+//Endpoint to  test if the server is still running
+app.get('/', (req, res) =>{
+   res.status(200).json('OK');
+})
+
 // Endpoint to receive the setpoint from the frontend
 app.post('/api/setpoint', (req, res) => {
   console.log('Received request body:', req.body);
